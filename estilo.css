@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*body*/
+
+body{
+    width:70%;
+    background-image: url('fundo.jpg'); 
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin-left: 30px;
+}
+
+/*header*/
+
+.informacoes{
+    display: flex;
+    margin-left: 50%;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    margin-top: 11%;
+    padding: 10px 0;
+    box-shadow: 10px 10px #cccccc;
+}
+
+h1, h2, p, b{
+    font-family: 'Dancing Script', Pacifico;
+}
+
+h1{
+    text-align: left;
+    color: black;
+}
+
+.informacoes .infofotos img{
+    border-radius: 20%;
+    width: 120%;          
+    height: 210px;         
+    margin-left: 10px;
+}
+
+.informacoes .infopessoais b{
+    color: black;
+}
+
+.informacoes .infopessoais p{
+    text-align: left;
+    color: blue;
+}
+
+.informacoes .infopessoais{
+    margin-left: 12%;
+}
+
+/*section*/
+
+.infodados{
+    text-align: justify;
+    margin-left: 50%;
+}
+
+h2{
+    text-align: left;
+    color: black;
+}
+
+.apresentacao b, .formacao b, .habilidades b, .experiencia b{
+    color: black;
+}
+
+.apresentacao, .formacao, .habilidades, .experiencia{
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px #cccccc;
+    color: blue;
+}
+
+
+/*footer*/
+
+footer{
+    margin-bottom: 17%;
+    background-color: #f2f2f2    ;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px #cccccc;
+}
+
+footer p{
+    margin-right: 10%;
+    display: inline-block;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+
+
+
+
+
+
